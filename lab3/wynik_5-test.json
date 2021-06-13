@@ -1,0 +1,18 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("92d02a88-b03c-4379-9768-b1455b51cf5d") }
+MongoDB server version: 4.4.6
+uncaught exception: Error: error: {
+	"ok" : 0,
+	"errmsg" : "TypeError: element is undefined :\n@:2:13\n",
+	"code" : 139,
+	"codeName" : "JSInterpreterFailure"
+} :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DBCommandCursor@src/mongo/shell/query.js:703:15
+DBQuery.prototype._exec@src/mongo/shell/query.js:112:28
+DBQuery.prototype.hasNext@src/mongo/shell/query.js:287:5
+DBQuery.prototype.forEach@src/mongo/shell/query.js:511:12
+@zadanie_5-test.js:2:1
+failed to load: zadanie_5-test.js
+exiting with code -3
