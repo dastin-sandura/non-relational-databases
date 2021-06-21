@@ -1,0 +1,2016 @@
+MongoDB shell version v4.4.6
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("7ca313a8-cfe9-4c78-b766-0102b30878f5") }
+MongoDB server version: 4.4.6
+[
+	{
+		"_id" : "Afghanistan",
+		"value" : {
+			"count" : 39,
+			"height" : 6587.529999999999,
+			"weight" : 2729.1400000000003,
+			"avgWeight" : 69.97794871794872,
+			"avgHeight" : 168.91102564102562
+		}
+	},
+	{
+		"_id" : "Aland Islands",
+		"value" : {
+			"count" : 4,
+			"height" : 647.77,
+			"weight" : 291.13,
+			"avgWeight" : 72.7825,
+			"avgHeight" : 161.9425
+		}
+	},
+	{
+		"_id" : "Albania",
+		"value" : {
+			"count" : 38,
+			"height" : 6433.889999999999,
+			"weight" : 2674.0500000000006,
+			"avgWeight" : 70.36973684210528,
+			"avgHeight" : 169.31289473684208
+		}
+	},
+	{
+		"_id" : "Algeria",
+		"value" : {
+			"count" : 1,
+			"height" : 152.5,
+			"weight" : 66.5,
+			"avgWeight" : 66.5,
+			"avgHeight" : 152.5
+		}
+	},
+	{
+		"_id" : "American Samoa",
+		"value" : {
+			"count" : 1,
+			"height" : 179.9,
+			"weight" : 72.49,
+			"avgWeight" : 72.49,
+			"avgHeight" : 179.9
+		}
+	},
+	{
+		"_id" : "Andorra",
+		"value" : {
+			"count" : 2,
+			"height" : 316.99,
+			"weight" : 141.23000000000002,
+			"avgWeight" : 70.61500000000001,
+			"avgHeight" : 158.495
+		}
+	},
+	{
+		"_id" : "Angola",
+		"value" : {
+			"count" : 8,
+			"height" : 1343.7,
+			"weight" : 538.88,
+			"avgWeight" : 67.36,
+			"avgHeight" : 167.9625
+		}
+	},
+	{
+		"_id" : "Argentina",
+		"value" : {
+			"count" : 148,
+			"height" : 24546.12999999999,
+			"weight" : 10314.14,
+			"avgWeight" : 69.69013513513514,
+			"avgHeight" : 165.85222972972966
+		}
+	},
+	{
+		"_id" : "Armenia",
+		"value" : {
+			"count" : 39,
+			"height" : 6572.199999999999,
+			"weight" : 2732.9199999999996,
+			"avgWeight" : 70.07487179487178,
+			"avgHeight" : 168.51794871794868
+		}
+	},
+	{
+		"_id" : "Australia",
+		"value" : {
+			"count" : 3,
+			"height" : 493.68000000000006,
+			"weight" : 202.92,
+			"avgWeight" : 67.64,
+			"avgHeight" : 164.56000000000003
+		}
+	},
+	{
+		"_id" : "Austria",
+		"value" : {
+			"count" : 7,
+			"height" : 1116.1,
+			"weight" : 489.69,
+			"avgWeight" : 69.95571428571428,
+			"avgHeight" : 159.44285714285712
+		}
+	},
+	{
+		"_id" : "Azerbaijan",
+		"value" : {
+			"count" : 32,
+			"height" : 5293.850000000001,
+			"weight" : 2246.2000000000003,
+			"avgWeight" : 70.19375000000001,
+			"avgHeight" : 165.43281250000004
+		}
+	},
+	{
+		"_id" : "Bahamas",
+		"value" : {
+			"count" : 5,
+			"height" : 839.5600000000001,
+			"weight" : 352.19,
+			"avgWeight" : 70.438,
+			"avgHeight" : 167.912
+		}
+	},
+	{
+		"_id" : "Bangladesh",
+		"value" : {
+			"count" : 18,
+			"height" : 2993.719999999999,
+			"weight" : 1313.4099999999999,
+			"avgWeight" : 72.96722222222222,
+			"avgHeight" : 166.3177777777777
+		}
+	},
+	{
+		"_id" : "Barbados",
+		"value" : {
+			"count" : 1,
+			"height" : 174.19,
+			"weight" : 64.76,
+			"avgWeight" : 64.76,
+			"avgHeight" : 174.19
+		}
+	},
+	{
+		"_id" : "Belarus",
+		"value" : {
+			"count" : 43,
+			"height" : 7179.479999999998,
+			"weight" : 3017.98,
+			"avgWeight" : 70.18558139534883,
+			"avgHeight" : 166.96465116279066
+		}
+	},
+	{
+		"_id" : "Belgium",
+		"value" : {
+			"count" : 5,
+			"height" : 814.5699999999999,
+			"weight" : 342.22999999999996,
+			"avgWeight" : 68.446,
+			"avgHeight" : 162.914
+		}
+	},
+	{
+		"_id" : "Belize",
+		"value" : {
+			"count" : 4,
+			"height" : 693.87,
+			"weight" : 277.73,
+			"avgWeight" : 69.4325,
+			"avgHeight" : 173.4675
+		}
+	},
+	{
+		"_id" : "Benin",
+		"value" : {
+			"count" : 7,
+			"height" : 1189.3600000000001,
+			"weight" : 517.03,
+			"avgWeight" : 73.86142857142856,
+			"avgHeight" : 169.90857142857143
+		}
+	},
+	{
+		"_id" : "Bhutan",
+		"value" : {
+			"count" : 6,
+			"height" : 1001.98,
+			"weight" : 395.71000000000004,
+			"avgWeight" : 65.95166666666667,
+			"avgHeight" : 166.99666666666667
+		}
+	},
+	{
+		"_id" : "Bolivia",
+		"value" : {
+			"count" : 26,
+			"height" : 4338.080000000001,
+			"weight" : 1819.1299999999997,
+			"avgWeight" : 69.96653846153845,
+			"avgHeight" : 166.84923076923081
+		}
+	},
+	{
+		"_id" : "Bosnia and Herzegovina",
+		"value" : {
+			"count" : 32,
+			"height" : 5363.069999999998,
+			"weight" : 2257.2400000000002,
+			"avgWeight" : 70.53875000000001,
+			"avgHeight" : 167.59593749999993
+		}
+	},
+	{
+		"_id" : "Botswana",
+		"value" : {
+			"count" : 13,
+			"height" : 2220.56,
+			"weight" : 904.5399999999998,
+			"avgWeight" : 69.57999999999998,
+			"avgHeight" : 170.81230769230768
+		}
+	},
+	{
+		"_id" : "Brazil",
+		"value" : {
+			"count" : 379,
+			"height" : 63050.39999999999,
+			"weight" : 26509.580000000005,
+			"avgWeight" : 69.94612137203168,
+			"avgHeight" : 166.35989445910286
+		}
+	},
+	{
+		"_id" : "Brunei",
+		"value" : {
+			"count" : 1,
+			"height" : 173.4,
+			"weight" : 75.25,
+			"avgWeight" : 75.25,
+			"avgHeight" : 173.4
+		}
+	},
+	{
+		"_id" : "Bulgaria",
+		"value" : {
+			"count" : 36,
+			"height" : 6111.829999999999,
+			"weight" : 2496.47,
+			"avgWeight" : 69.34638888888888,
+			"avgHeight" : 169.77305555555552
+		}
+	},
+	{
+		"_id" : "Burkina Faso",
+		"value" : {
+			"count" : 10,
+			"height" : 1619.4700000000003,
+			"weight" : 706.41,
+			"avgWeight" : 70.64099999999999,
+			"avgHeight" : 161.94700000000003
+		}
+	},
+	{
+		"_id" : "Burundi",
+		"value" : {
+			"count" : 3,
+			"height" : 498.18999999999994,
+			"weight" : 211.26,
+			"avgWeight" : 70.42,
+			"avgHeight" : 166.0633333333333
+		}
+	},
+	{
+		"_id" : "Cambodia",
+		"value" : {
+			"count" : 7,
+			"height" : 1165.58,
+			"weight" : 490.13,
+			"avgWeight" : 70.01857142857143,
+			"avgHeight" : 166.51142857142855
+		}
+	},
+	{
+		"_id" : "Cameroon",
+		"value" : {
+			"count" : 20,
+			"height" : 3409.4900000000002,
+			"weight" : 1410.89,
+			"avgWeight" : 70.5445,
+			"avgHeight" : 170.4745
+		}
+	},
+	{
+		"_id" : "Canada",
+		"value" : {
+			"count" : 126,
+			"height" : 21087.159999999996,
+			"weight" : 8864,
+			"avgWeight" : 70.34920634920636,
+			"avgHeight" : 167.35841269841268
+		}
+	},
+	{
+		"_id" : "Cape Verde",
+		"value" : {
+			"count" : 6,
+			"height" : 1009.6600000000001,
+			"weight" : 421.41,
+			"avgWeight" : 70.235,
+			"avgHeight" : 168.27666666666667
+		}
+	},
+	{
+		"_id" : "Central African Republic",
+		"value" : {
+			"count" : 6,
+			"height" : 1014.56,
+			"weight" : 406.69,
+			"avgWeight" : 67.78166666666667,
+			"avgHeight" : 169.09333333333333
+		}
+	},
+	{
+		"_id" : "Chad",
+		"value" : {
+			"count" : 5,
+			"height" : 841.01,
+			"weight" : 360.49,
+			"avgWeight" : 72.098,
+			"avgHeight" : 168.202
+		}
+	},
+	{
+		"_id" : "Chile",
+		"value" : {
+			"count" : 28,
+			"height" : 4705.240000000001,
+			"weight" : 1951.58,
+			"avgWeight" : 69.69928571428571,
+			"avgHeight" : 168.04428571428573
+		}
+	},
+	{
+		"_id" : "China",
+		"value" : {
+			"count" : 1847,
+			"height" : 308018.01999999926,
+			"weight" : 129581.10999999999,
+			"avgWeight" : 70.15761234434217,
+			"avgHeight" : 166.76665944775272
+		}
+	},
+	{
+		"_id" : "Colombia",
+		"value" : {
+			"count" : 152,
+			"height" : 25302.510000000013,
+			"weight" : 10708.07,
+			"avgWeight" : 70.44782894736842,
+			"avgHeight" : 166.46388157894745
+		}
+	},
+	{
+		"_id" : "Comoros",
+		"value" : {
+			"count" : 10,
+			"height" : 1676.9899999999998,
+			"weight" : 707.94,
+			"avgWeight" : 70.79400000000001,
+			"avgHeight" : 167.69899999999998
+		}
+	},
+	{
+		"_id" : "Costa Rica",
+		"value" : {
+			"count" : 16,
+			"height" : 2696.9100000000003,
+			"weight" : 1114.92,
+			"avgWeight" : 69.6825,
+			"avgHeight" : 168.55687500000002
+		}
+	},
+	{
+		"_id" : "Croatia",
+		"value" : {
+			"count" : 61,
+			"height" : 10281.649999999998,
+			"weight" : 4257.220000000001,
+			"avgWeight" : 69.79049180327871,
+			"avgHeight" : 168.55163934426227
+		}
+	},
+	{
+		"_id" : "Cuba",
+		"value" : {
+			"count" : 34,
+			"height" : 5601.36,
+			"weight" : 2396.3799999999997,
+			"avgWeight" : 70.48176470588234,
+			"avgHeight" : 164.74588235294118
+		}
+	},
+	{
+		"_id" : "Cyprus",
+		"value" : {
+			"count" : 5,
+			"height" : 838.2,
+			"weight" : 351.86,
+			"avgWeight" : 70.372,
+			"avgHeight" : 167.64000000000001
+		}
+	},
+	{
+		"_id" : "Czech Republic",
+		"value" : {
+			"count" : 162,
+			"height" : 27071.14999999999,
+			"weight" : 11282.940000000002,
+			"avgWeight" : 69.64777777777779,
+			"avgHeight" : 167.1058641975308
+		}
+	},
+	{
+		"_id" : "Democratic Republic of the Congo",
+		"value" : {
+			"count" : 18,
+			"height" : 2989.78,
+			"weight" : 1300.8,
+			"avgWeight" : 72.26666666666667,
+			"avgHeight" : 166.0988888888889
+		}
+	},
+	{
+		"_id" : "Denmark",
+		"value" : {
+			"count" : 9,
+			"height" : 1530.0199999999998,
+			"weight" : 611.4,
+			"avgWeight" : 67.93333333333334,
+			"avgHeight" : 170.0022222222222
+		}
+	},
+	{
+		"_id" : "Dominica",
+		"value" : {
+			"count" : 1,
+			"height" : 167.84,
+			"weight" : 74.43,
+			"avgWeight" : 74.43,
+			"avgHeight" : 167.84
+		}
+	},
+	{
+		"_id" : "Dominican Republic",
+		"value" : {
+			"count" : 29,
+			"height" : 4939.479999999999,
+			"weight" : 1992.4299999999998,
+			"avgWeight" : 68.70448275862068,
+			"avgHeight" : 170.3268965517241
+		}
+	},
+	{
+		"_id" : "East Timor",
+		"value" : {
+			"count" : 4,
+			"height" : 675.3199999999999,
+			"weight" : 288.72999999999996,
+			"avgWeight" : 72.18249999999999,
+			"avgHeight" : 168.82999999999998
+		}
+	},
+	{
+		"_id" : "Ecuador",
+		"value" : {
+			"count" : 15,
+			"height" : 2491.4699999999993,
+			"weight" : 1053.6000000000001,
+			"avgWeight" : 70.24000000000001,
+			"avgHeight" : 166.09799999999996
+		}
+	},
+	{
+		"_id" : "Egypt",
+		"value" : {
+			"count" : 35,
+			"height" : 5938.220000000001,
+			"weight" : 2420.8899999999994,
+			"avgWeight" : 69.1682857142857,
+			"avgHeight" : 169.6634285714286
+		}
+	},
+	{
+		"_id" : "El Salvador",
+		"value" : {
+			"count" : 16,
+			"height" : 2643.35,
+			"weight" : 1100.04,
+			"avgWeight" : 68.7525,
+			"avgHeight" : 165.209375
+		}
+	},
+	{
+		"_id" : "Equatorial Guinea",
+		"value" : {
+			"count" : 1,
+			"height" : 169.66,
+			"weight" : 71.34,
+			"avgWeight" : 71.34,
+			"avgHeight" : 169.66
+		}
+	},
+	{
+		"_id" : "Eritrea",
+		"value" : {
+			"count" : 3,
+			"height" : 493.64,
+			"weight" : 212.12,
+			"avgWeight" : 70.70666666666666,
+			"avgHeight" : 164.54666666666665
+		}
+	},
+	{
+		"_id" : "Estonia",
+		"value" : {
+			"count" : 11,
+			"height" : 1837.81,
+			"weight" : 778.4,
+			"avgWeight" : 70.76363636363637,
+			"avgHeight" : 167.07363636363635
+		}
+	},
+	{
+		"_id" : "Ethiopia",
+		"value" : {
+			"count" : 25,
+			"height" : 4218.05,
+			"weight" : 1800.1899999999994,
+			"avgWeight" : 72.00759999999997,
+			"avgHeight" : 168.722
+		}
+	},
+	{
+		"_id" : "Fiji",
+		"value" : {
+			"count" : 1,
+			"height" : 178.85,
+			"weight" : 67.82,
+			"avgWeight" : 67.82,
+			"avgHeight" : 178.85
+		}
+	},
+	{
+		"_id" : "Finland",
+		"value" : {
+			"count" : 48,
+			"height" : 7955.329999999999,
+			"weight" : 3345.1900000000005,
+			"avgWeight" : 69.69145833333334,
+			"avgHeight" : 165.73604166666664
+		}
+	},
+	{
+		"_id" : "France",
+		"value" : {
+			"count" : 305,
+			"height" : 51124.09999999999,
+			"weight" : 21275.97,
+			"avgWeight" : 69.7572786885246,
+			"avgHeight" : 167.61999999999998
+		}
+	},
+	{
+		"_id" : "French Guiana",
+		"value" : {
+			"count" : 2,
+			"height" : 323.54,
+			"weight" : 132.81,
+			"avgWeight" : 66.405,
+			"avgHeight" : 161.77
+		}
+	},
+	{
+		"_id" : "French Polynesia",
+		"value" : {
+			"count" : 5,
+			"height" : 831.53,
+			"weight" : 346.89,
+			"avgWeight" : 69.378,
+			"avgHeight" : 166.30599999999998
+		}
+	},
+	{
+		"_id" : "Gabon",
+		"value" : {
+			"count" : 2,
+			"height" : 351.70000000000005,
+			"weight" : 157.1,
+			"avgWeight" : 78.55,
+			"avgHeight" : 175.85000000000002
+		}
+	},
+	{
+		"_id" : "Gambia",
+		"value" : {
+			"count" : 9,
+			"height" : 1521.4299999999998,
+			"weight" : 606.7099999999999,
+			"avgWeight" : 67.41222222222221,
+			"avgHeight" : 169.04777777777775
+		}
+	},
+	{
+		"_id" : "Georgia",
+		"value" : {
+			"count" : 14,
+			"height" : 2362.1600000000003,
+			"weight" : 965.84,
+			"avgWeight" : 68.98857142857143,
+			"avgHeight" : 168.7257142857143
+		}
+	},
+	{
+		"_id" : "Germany",
+		"value" : {
+			"count" : 32,
+			"height" : 5476.1,
+			"weight" : 2240.65,
+			"avgWeight" : 70.0203125,
+			"avgHeight" : 171.128125
+		}
+	},
+	{
+		"_id" : "Ghana",
+		"value" : {
+			"count" : 10,
+			"height" : 1672.43,
+			"weight" : 696.24,
+			"avgWeight" : 69.624,
+			"avgHeight" : 167.243
+		}
+	},
+	{
+		"_id" : "Greece",
+		"value" : {
+			"count" : 132,
+			"height" : 21968.909999999996,
+			"weight" : 9295.790000000003,
+			"avgWeight" : 70.42265151515153,
+			"avgHeight" : 166.43113636363634
+		}
+	},
+	{
+		"_id" : "Greenland",
+		"value" : {
+			"count" : 1,
+			"height" : 162.81,
+			"weight" : 68.58,
+			"avgWeight" : 68.58,
+			"avgHeight" : 162.81
+		}
+	},
+	{
+		"_id" : "Guadeloupe",
+		"value" : {
+			"count" : 2,
+			"height" : 368.72,
+			"weight" : 139.48000000000002,
+			"avgWeight" : 69.74000000000001,
+			"avgHeight" : 184.36
+		}
+	},
+	{
+		"_id" : "Guam",
+		"value" : {
+			"count" : 3,
+			"height" : 531.01,
+			"weight" : 211.04000000000002,
+			"avgWeight" : 70.34666666666668,
+			"avgHeight" : 177.00333333333333
+		}
+	},
+	{
+		"_id" : "Guatemala",
+		"value" : {
+			"count" : 37,
+			"height" : 6140.260000000002,
+			"weight" : 2586.32,
+			"avgWeight" : 69.90054054054055,
+			"avgHeight" : 165.95297297297301
+		}
+	},
+	{
+		"_id" : "Guinea",
+		"value" : {
+			"count" : 8,
+			"height" : 1265.98,
+			"weight" : 551.79,
+			"avgWeight" : 68.97375,
+			"avgHeight" : 158.2475
+		}
+	},
+	{
+		"_id" : "Guinea-Bissau",
+		"value" : {
+			"count" : 3,
+			"height" : 515.84,
+			"weight" : 216.14999999999998,
+			"avgWeight" : 72.05,
+			"avgHeight" : 171.9466666666667
+		}
+	},
+	{
+		"_id" : "Guyana",
+		"value" : {
+			"count" : 2,
+			"height" : 330.53999999999996,
+			"weight" : 142.62,
+			"avgWeight" : 71.31,
+			"avgHeight" : 165.26999999999998
+		}
+	},
+	{
+		"_id" : "Haiti",
+		"value" : {
+			"count" : 12,
+			"height" : 2023.6799999999998,
+			"weight" : 855.19,
+			"avgWeight" : 71.26583333333333,
+			"avgHeight" : 168.64
+		}
+	},
+	{
+		"_id" : "Honduras",
+		"value" : {
+			"count" : 38,
+			"height" : 6334.329999999999,
+			"weight" : 2663.3900000000003,
+			"avgWeight" : 70.0892105263158,
+			"avgHeight" : 166.69289473684208
+		}
+	},
+	{
+		"_id" : "Hong Kong",
+		"value" : {
+			"count" : 1,
+			"height" : 167.68,
+			"weight" : 76.71,
+			"avgWeight" : 76.71,
+			"avgHeight" : 167.68
+		}
+	},
+	{
+		"_id" : "Hungary",
+		"value" : {
+			"count" : 6,
+			"height" : 1003.1300000000001,
+			"weight" : 437.76,
+			"avgWeight" : 72.96,
+			"avgHeight" : 167.18833333333336
+		}
+	},
+	{
+		"_id" : "Iceland",
+		"value" : {
+			"count" : 6,
+			"height" : 1011.55,
+			"weight" : 433.63,
+			"avgWeight" : 72.27166666666666,
+			"avgHeight" : 168.59166666666667
+		}
+	},
+	{
+		"_id" : "Indonesia",
+		"value" : {
+			"count" : 1079,
+			"height" : 180378.46999999977,
+			"weight" : 75701.51999999993,
+			"avgWeight" : 70.15896200185351,
+			"avgHeight" : 167.17189063948078
+		}
+	},
+	{
+		"_id" : "Iran",
+		"value" : {
+			"count" : 37,
+			"height" : 6165.1,
+			"weight" : 2627.6,
+			"avgWeight" : 71.01621621621621,
+			"avgHeight" : 166.62432432432433
+		}
+	},
+	{
+		"_id" : "Iraq",
+		"value" : {
+			"count" : 12,
+			"height" : 2028.7400000000002,
+			"weight" : 809.38,
+			"avgWeight" : 67.44833333333334,
+			"avgHeight" : 169.0616666666667
+		}
+	},
+	{
+		"_id" : "Ireland",
+		"value" : {
+			"count" : 37,
+			"height" : 6170.509999999998,
+			"weight" : 2635.2,
+			"avgWeight" : 71.22162162162162,
+			"avgHeight" : 166.7705405405405
+		}
+	},
+	{
+		"_id" : "Israel",
+		"value" : {
+			"count" : 23,
+			"height" : 3904.4299999999994,
+			"weight" : 1646.6899999999998,
+			"avgWeight" : 71.59521739130435,
+			"avgHeight" : 169.7578260869565
+		}
+	},
+	{
+		"_id" : "Italy",
+		"value" : {
+			"count" : 17,
+			"height" : 2874.5100000000007,
+			"weight" : 1211.52,
+			"avgWeight" : 71.26588235294118,
+			"avgHeight" : 169.0888235294118
+		}
+	},
+	{
+		"_id" : "Ivory Coast",
+		"value" : {
+			"count" : 15,
+			"height" : 2439.4399999999996,
+			"weight" : 1047.79,
+			"avgWeight" : 69.85266666666666,
+			"avgHeight" : 162.6293333333333
+		}
+	},
+	{
+		"_id" : "Jamaica",
+		"value" : {
+			"count" : 10,
+			"height" : 1687.61,
+			"weight" : 705.8100000000001,
+			"avgWeight" : 70.581,
+			"avgHeight" : 168.761
+		}
+	},
+	{
+		"_id" : "Japan",
+		"value" : {
+			"count" : 180,
+			"height" : 30072.050000000014,
+			"weight" : 12578.419999999998,
+			"avgWeight" : 69.8801111111111,
+			"avgHeight" : 167.06694444444452
+		}
+	},
+	{
+		"_id" : "Jordan",
+		"value" : {
+			"count" : 9,
+			"height" : 1507.87,
+			"weight" : 635.3699999999999,
+			"avgWeight" : 70.59666666666665,
+			"avgHeight" : 167.5411111111111
+		}
+	},
+	{
+		"_id" : "Kazakhstan",
+		"value" : {
+			"count" : 29,
+			"height" : 4820.38,
+			"weight" : 2038.05,
+			"avgWeight" : 70.27758620689654,
+			"avgHeight" : 166.22
+		}
+	},
+	{
+		"_id" : "Kenya",
+		"value" : {
+			"count" : 21,
+			"height" : 3471.19,
+			"weight" : 1473.8300000000002,
+			"avgWeight" : 70.18238095238095,
+			"avgHeight" : 165.2947619047619
+		}
+	},
+	{
+		"_id" : "Kiribati",
+		"value" : {
+			"count" : 1,
+			"height" : 168.86,
+			"weight" : 65.88,
+			"avgWeight" : 65.88,
+			"avgHeight" : 168.86
+		}
+	},
+	{
+		"_id" : "Kosovo",
+		"value" : {
+			"count" : 6,
+			"height" : 1010.0899999999999,
+			"weight" : 405.41,
+			"avgWeight" : 67.56833333333334,
+			"avgHeight" : 168.34833333333333
+		}
+	},
+	{
+		"_id" : "Kuwait",
+		"value" : {
+			"count" : 7,
+			"height" : 1171.3600000000001,
+			"weight" : 492.71999999999997,
+			"avgWeight" : 70.38857142857142,
+			"avgHeight" : 167.33714285714288
+		}
+	},
+	{
+		"_id" : "Kyrgyzstan",
+		"value" : {
+			"count" : 16,
+			"height" : 2713.8300000000004,
+			"weight" : 1081.7700000000002,
+			"avgWeight" : 67.61062500000001,
+			"avgHeight" : 169.61437500000002
+		}
+	},
+	{
+		"_id" : "Laos",
+		"value" : {
+			"count" : 7,
+			"height" : 1177.6599999999999,
+			"weight" : 486.81,
+			"avgWeight" : 69.54428571428572,
+			"avgHeight" : 168.23714285714283
+		}
+	},
+	{
+		"_id" : "Latvia",
+		"value" : {
+			"count" : 14,
+			"height" : 2315.3399999999997,
+			"weight" : 1005.3699999999999,
+			"avgWeight" : 71.81214285714285,
+			"avgHeight" : 165.38142857142856
+		}
+	},
+	{
+		"_id" : "Lebanon",
+		"value" : {
+			"count" : 6,
+			"height" : 964.1899999999999,
+			"weight" : 420.05000000000007,
+			"avgWeight" : 70.00833333333334,
+			"avgHeight" : 160.69833333333332
+		}
+	},
+	{
+		"_id" : "Lesotho",
+		"value" : {
+			"count" : 3,
+			"height" : 506.28,
+			"weight" : 212.63,
+			"avgWeight" : 70.87666666666667,
+			"avgHeight" : 168.76
+		}
+	},
+	{
+		"_id" : "Liberia",
+		"value" : {
+			"count" : 6,
+			"height" : 1001.0600000000001,
+			"weight" : 430.40000000000003,
+			"avgWeight" : 71.73333333333333,
+			"avgHeight" : 166.84333333333333
+		}
+	},
+	{
+		"_id" : "Libya",
+		"value" : {
+			"count" : 13,
+			"height" : 2080.49,
+			"weight" : 898.6899999999999,
+			"avgWeight" : 69.13,
+			"avgHeight" : 160.03769230769228
+		}
+	},
+	{
+		"_id" : "Lithuania",
+		"value" : {
+			"count" : 19,
+			"height" : 3216.69,
+			"weight" : 1318.1899999999998,
+			"avgWeight" : 69.37842105263157,
+			"avgHeight" : 169.29947368421054
+		}
+	},
+	{
+		"_id" : "Luxembourg",
+		"value" : {
+			"count" : 19,
+			"height" : 3118.5099999999998,
+			"weight" : 1336.67,
+			"avgWeight" : 70.35105263157895,
+			"avgHeight" : 164.13210526315788
+		}
+	},
+	{
+		"_id" : "Macao",
+		"value" : {
+			"count" : 1,
+			"height" : 163.81,
+			"weight" : 64.37,
+			"avgWeight" : 64.37,
+			"avgHeight" : 163.81
+		}
+	},
+	{
+		"_id" : "Macedonia",
+		"value" : {
+			"count" : 30,
+			"height" : 5012.659999999999,
+			"weight" : 2091.6000000000004,
+			"avgWeight" : 69.72000000000001,
+			"avgHeight" : 167.08866666666663
+		}
+	},
+	{
+		"_id" : "Madagascar",
+		"value" : {
+			"count" : 30,
+			"height" : 5038.990000000001,
+			"weight" : 2083.1699999999996,
+			"avgWeight" : 69.439,
+			"avgHeight" : 167.96633333333335
+		}
+	},
+	{
+		"_id" : "Malawi",
+		"value" : {
+			"count" : 5,
+			"height" : 808.8399999999999,
+			"weight" : 356.09,
+			"avgWeight" : 71.21799999999999,
+			"avgHeight" : 161.76799999999997
+		}
+	},
+	{
+		"_id" : "Malaysia",
+		"value" : {
+			"count" : 41,
+			"height" : 6853.099999999999,
+			"weight" : 2895.2799999999993,
+			"avgWeight" : 70.61658536585364,
+			"avgHeight" : 167.14878048780486
+		}
+	},
+	{
+		"_id" : "Maldives",
+		"value" : {
+			"count" : 5,
+			"height" : 838.16,
+			"weight" : 355.96,
+			"avgWeight" : 71.192,
+			"avgHeight" : 167.632
+		}
+	},
+	{
+		"_id" : "Mali",
+		"value" : {
+			"count" : 12,
+			"height" : 2003.7700000000004,
+			"weight" : 820.52,
+			"avgWeight" : 68.37666666666667,
+			"avgHeight" : 166.98083333333338
+		}
+	},
+	{
+		"_id" : "Malta",
+		"value" : {
+			"count" : 14,
+			"height" : 2282.21,
+			"weight" : 968.73,
+			"avgWeight" : 69.19500000000001,
+			"avgHeight" : 163.01500000000001
+		}
+	},
+	{
+		"_id" : "Marshall Islands",
+		"value" : {
+			"count" : 3,
+			"height" : 497.61,
+			"weight" : 201.43,
+			"avgWeight" : 67.14333333333333,
+			"avgHeight" : 165.87
+		}
+	},
+	{
+		"_id" : "Martinique",
+		"value" : {
+			"count" : 1,
+			"height" : 171.58,
+			"weight" : 70.73,
+			"avgWeight" : 70.73,
+			"avgHeight" : 171.58
+		}
+	},
+	{
+		"_id" : "Mauritania",
+		"value" : {
+			"count" : 2,
+			"height" : 352.39,
+			"weight" : 133.56,
+			"avgWeight" : 66.78,
+			"avgHeight" : 176.195
+		}
+	},
+	{
+		"_id" : "Mauritius",
+		"value" : {
+			"count" : 13,
+			"height" : 2126.12,
+			"weight" : 869.3999999999999,
+			"avgWeight" : 66.87692307692306,
+			"avgHeight" : 163.5476923076923
+		}
+	},
+	{
+		"_id" : "Mexico",
+		"value" : {
+			"count" : 91,
+			"height" : 15195.299999999997,
+			"weight" : 6356.039999999998,
+			"avgWeight" : 69.84659340659339,
+			"avgHeight" : 166.98131868131864
+		}
+	},
+	{
+		"_id" : "Micronesia",
+		"value" : {
+			"count" : 4,
+			"height" : 698.63,
+			"weight" : 283.42,
+			"avgWeight" : 70.855,
+			"avgHeight" : 174.6575
+		}
+	},
+	{
+		"_id" : "Moldova",
+		"value" : {
+			"count" : 14,
+			"height" : 2325.53,
+			"weight" : 977.3199999999999,
+			"avgWeight" : 69.80857142857143,
+			"avgHeight" : 166.10928571428573
+		}
+	},
+	{
+		"_id" : "Monaco",
+		"value" : {
+			"count" : 1,
+			"height" : 166.1,
+			"weight" : 79.81,
+			"avgWeight" : 79.81,
+			"avgHeight" : 166.1
+		}
+	},
+	{
+		"_id" : "Mongolia",
+		"value" : {
+			"count" : 43,
+			"height" : 7343.659999999999,
+			"weight" : 2975.9099999999994,
+			"avgWeight" : 69.20720930232557,
+			"avgHeight" : 170.7827906976744
+		}
+	},
+	{
+		"_id" : "Montenegro",
+		"value" : {
+			"count" : 9,
+			"height" : 1553.1999999999998,
+			"weight" : 639.63,
+			"avgWeight" : 71.07,
+			"avgHeight" : 172.57777777777775
+		}
+	},
+	{
+		"_id" : "Morocco",
+		"value" : {
+			"count" : 34,
+			"height" : 5604.48,
+			"weight" : 2369.1399999999994,
+			"avgWeight" : 69.6805882352941,
+			"avgHeight" : 164.8376470588235
+		}
+	},
+	{
+		"_id" : "Mozambique",
+		"value" : {
+			"count" : 6,
+			"height" : 990.62,
+			"weight" : 416.65,
+			"avgWeight" : 69.44166666666666,
+			"avgHeight" : 165.10333333333332
+		}
+	},
+	{
+		"_id" : "Myanmar",
+		"value" : {
+			"count" : 22,
+			"height" : 3640.6400000000003,
+			"weight" : 1556.5499999999997,
+			"avgWeight" : 70.75227272727271,
+			"avgHeight" : 165.48363636363638
+		}
+	},
+	{
+		"_id" : "Namibia",
+		"value" : {
+			"count" : 6,
+			"height" : 1022.6700000000001,
+			"weight" : 435.46999999999997,
+			"avgWeight" : 72.57833333333333,
+			"avgHeight" : 170.44500000000002
+		}
+	},
+	{
+		"_id" : "Nauru",
+		"value" : {
+			"count" : 1,
+			"height" : 166.24,
+			"weight" : 63.32,
+			"avgWeight" : 63.32,
+			"avgHeight" : 166.24
+		}
+	},
+	{
+		"_id" : "Nepal",
+		"value" : {
+			"count" : 16,
+			"height" : 2626.3999999999996,
+			"weight" : 1130.1200000000001,
+			"avgWeight" : 70.63250000000001,
+			"avgHeight" : 164.14999999999998
+		}
+	},
+	{
+		"_id" : "Netherlands",
+		"value" : {
+			"count" : 33,
+			"height" : 5430.04,
+			"weight" : 2301.75,
+			"avgWeight" : 69.75,
+			"avgHeight" : 164.54666666666665
+		}
+	},
+	{
+		"_id" : "New Caledonia",
+		"value" : {
+			"count" : 2,
+			"height" : 322.35,
+			"weight" : 132.68,
+			"avgWeight" : 66.34,
+			"avgHeight" : 161.175
+		}
+	},
+	{
+		"_id" : "New Zealand",
+		"value" : {
+			"count" : 16,
+			"height" : 2703.0000000000005,
+			"weight" : 1145.02,
+			"avgWeight" : 71.56375,
+			"avgHeight" : 168.93750000000003
+		}
+	},
+	{
+		"_id" : "Nicaragua",
+		"value" : {
+			"count" : 16,
+			"height" : 2730.05,
+			"weight" : 1107.4199999999998,
+			"avgWeight" : 69.21374999999999,
+			"avgHeight" : 170.628125
+		}
+	},
+	{
+		"_id" : "Niger",
+		"value" : {
+			"count" : 8,
+			"height" : 1323.8500000000001,
+			"weight" : 573.7,
+			"avgWeight" : 71.7125,
+			"avgHeight" : 165.48125000000002
+		}
+	},
+	{
+		"_id" : "Nigeria",
+		"value" : {
+			"count" : 87,
+			"height" : 14686.65,
+			"weight" : 6073.88,
+			"avgWeight" : 69.81471264367816,
+			"avgHeight" : 168.81206896551723
+		}
+	},
+	{
+		"_id" : "North Korea",
+		"value" : {
+			"count" : 13,
+			"height" : 2155.14,
+			"weight" : 926.9199999999998,
+			"avgWeight" : 71.30153846153846,
+			"avgHeight" : 165.78
+		}
+	},
+	{
+		"_id" : "Northern Mariana Islands",
+		"value" : {
+			"count" : 1,
+			"height" : 170.14,
+			"weight" : 75.01,
+			"avgWeight" : 75.01,
+			"avgHeight" : 170.14
+		}
+	},
+	{
+		"_id" : "Norway",
+		"value" : {
+			"count" : 38,
+			"height" : 6280.259999999999,
+			"weight" : 2768.5299999999997,
+			"avgWeight" : 72.85605263157895,
+			"avgHeight" : 165.26999999999998
+		}
+	},
+	{
+		"_id" : "Oman",
+		"value" : {
+			"count" : 3,
+			"height" : 505.66,
+			"weight" : 218.33999999999997,
+			"avgWeight" : 72.77999999999999,
+			"avgHeight" : 168.55333333333334
+		}
+	},
+	{
+		"_id" : "Pakistan",
+		"value" : {
+			"count" : 48,
+			"height" : 8068.620000000002,
+			"weight" : 3365.4500000000007,
+			"avgWeight" : 70.11354166666668,
+			"avgHeight" : 168.09625000000003
+		}
+	},
+	{
+		"_id" : "Palau",
+		"value" : {
+			"count" : 2,
+			"height" : 320.03,
+			"weight" : 151.67000000000002,
+			"avgWeight" : 75.83500000000001,
+			"avgHeight" : 160.015
+		}
+	},
+	{
+		"_id" : "Palestinian Territory",
+		"value" : {
+			"count" : 37,
+			"height" : 6190.57,
+			"weight" : 2607.019999999999,
+			"avgWeight" : 70.45999999999998,
+			"avgHeight" : 167.3127027027027
+		}
+	},
+	{
+		"_id" : "Panama",
+		"value" : {
+			"count" : 26,
+			"height" : 4413.820000000001,
+			"weight" : 1860.1400000000003,
+			"avgWeight" : 71.54384615384616,
+			"avgHeight" : 169.76230769230773
+		}
+	},
+	{
+		"_id" : "Papua New Guinea",
+		"value" : {
+			"count" : 4,
+			"height" : 676.6199999999999,
+			"weight" : 275.3,
+			"avgWeight" : 68.825,
+			"avgHeight" : 169.15499999999997
+		}
+	},
+	{
+		"_id" : "Paraguay",
+		"value" : {
+			"count" : 17,
+			"height" : 2838.1299999999997,
+			"weight" : 1181.3600000000001,
+			"avgWeight" : 69.49176470588236,
+			"avgHeight" : 166.94882352941175
+		}
+	},
+	{
+		"_id" : "Peru",
+		"value" : {
+			"count" : 146,
+			"height" : 24378.910000000014,
+			"weight" : 10165.700000000006,
+			"avgWeight" : 69.62808219178086,
+			"avgHeight" : 166.97883561643846
+		}
+	},
+	{
+		"_id" : "Philippines",
+		"value" : {
+			"count" : 524,
+			"height" : 87873.70999999986,
+			"weight" : 36640.09999999998,
+			"avgWeight" : 69.92385496183202,
+			"avgHeight" : 167.69791984732797
+		}
+	},
+	{
+		"_id" : "Poland",
+		"value" : {
+			"count" : 326,
+			"height" : 54581.97000000001,
+			"weight" : 22805.80999999999,
+			"avgWeight" : 69.956472392638,
+			"avgHeight" : 167.42935582822088
+		}
+	},
+	{
+		"_id" : "Portugal",
+		"value" : {
+			"count" : 319,
+			"height" : 53412.689999999995,
+			"weight" : 22329.970000000005,
+			"avgWeight" : 69.99990595611287,
+			"avgHeight" : 167.43789968652035
+		}
+	},
+	{
+		"_id" : "Puerto Rico",
+		"value" : {
+			"count" : 3,
+			"height" : 509.21000000000004,
+			"weight" : 217.14999999999998,
+			"avgWeight" : 72.38333333333333,
+			"avgHeight" : 169.73666666666668
+		}
+	},
+	{
+		"_id" : "Qatar",
+		"value" : {
+			"count" : 2,
+			"height" : 329.19,
+			"weight" : 137.59,
+			"avgWeight" : 68.795,
+			"avgHeight" : 164.595
+		}
+	},
+	{
+		"_id" : "Republic of the Congo",
+		"value" : {
+			"count" : 3,
+			"height" : 498.68999999999994,
+			"weight" : 205.82,
+			"avgWeight" : 68.60666666666667,
+			"avgHeight" : 166.23
+		}
+	},
+	{
+		"_id" : "Reunion",
+		"value" : {
+			"count" : 5,
+			"height" : 848.6700000000001,
+			"weight" : 364.53000000000003,
+			"avgWeight" : 72.906,
+			"avgHeight" : 169.734
+		}
+	},
+	{
+		"_id" : "Russia",
+		"value" : {
+			"count" : 607,
+			"height" : 101534.54000000002,
+			"weight" : 42425.24000000003,
+			"avgWeight" : 69.8933113673806,
+			"avgHeight" : 167.27271828665573
+		}
+	},
+	{
+		"_id" : "Rwanda",
+		"value" : {
+			"count" : 3,
+			"height" : 486.96000000000004,
+			"weight" : 204.18,
+			"avgWeight" : 68.06,
+			"avgHeight" : 162.32000000000002
+		}
+	},
+	{
+		"_id" : "Saint Kitts and Nevis",
+		"value" : {
+			"count" : 4,
+			"height" : 642.4200000000001,
+			"weight" : 285.99,
+			"avgWeight" : 71.4975,
+			"avgHeight" : 160.60500000000002
+		}
+	},
+	{
+		"_id" : "Saint Lucia",
+		"value" : {
+			"count" : 3,
+			"height" : 529.21,
+			"weight" : 212.28000000000003,
+			"avgWeight" : 70.76,
+			"avgHeight" : 176.40333333333334
+		}
+	},
+	{
+		"_id" : "Samoa",
+		"value" : {
+			"count" : 1,
+			"height" : 181.38,
+			"weight" : 67.59,
+			"avgWeight" : 67.59,
+			"avgHeight" : 181.38
+		}
+	},
+	{
+		"_id" : "Saudi Arabia",
+		"value" : {
+			"count" : 8,
+			"height" : 1338.8999999999999,
+			"weight" : 569.41,
+			"avgWeight" : 71.17625,
+			"avgHeight" : 167.36249999999998
+		}
+	},
+	{
+		"_id" : "Senegal",
+		"value" : {
+			"count" : 9,
+			"height" : 1565.05,
+			"weight" : 635.0300000000001,
+			"avgWeight" : 70.5588888888889,
+			"avgHeight" : 173.89444444444445
+		}
+	},
+	{
+		"_id" : "Serbia",
+		"value" : {
+			"count" : 59,
+			"height" : 9754.06,
+			"weight" : 4087.359999999999,
+			"avgWeight" : 69.27728813559321,
+			"avgHeight" : 165.3230508474576
+		}
+	},
+	{
+		"_id" : "Seychelles",
+		"value" : {
+			"count" : 1,
+			"height" : 161.2,
+			"weight" : 66.81,
+			"avgWeight" : 66.81,
+			"avgHeight" : 161.2
+		}
+	},
+	{
+		"_id" : "Sierra Leone",
+		"value" : {
+			"count" : 10,
+			"height" : 1683.6799999999998,
+			"weight" : 702.46,
+			"avgWeight" : 70.24600000000001,
+			"avgHeight" : 168.368
+		}
+	},
+	{
+		"_id" : "Sint Maarten",
+		"value" : {
+			"count" : 2,
+			"height" : 349.69,
+			"weight" : 141.48000000000002,
+			"avgWeight" : 70.74000000000001,
+			"avgHeight" : 174.845
+		}
+	},
+	{
+		"_id" : "Slovakia",
+		"value" : {
+			"count" : 1,
+			"height" : 157.97,
+			"weight" : 53.25,
+			"avgWeight" : 53.25,
+			"avgHeight" : 157.97
+		}
+	},
+	{
+		"_id" : "Slovenia",
+		"value" : {
+			"count" : 39,
+			"height" : 6589.570000000001,
+			"weight" : 2757.1400000000003,
+			"avgWeight" : 70.69589743589745,
+			"avgHeight" : 168.96333333333334
+		}
+	},
+	{
+		"_id" : "Somalia",
+		"value" : {
+			"count" : 1,
+			"height" : 150.56,
+			"weight" : 67.9,
+			"avgWeight" : 67.9,
+			"avgHeight" : 150.56
+		}
+	},
+	{
+		"_id" : "South Africa",
+		"value" : {
+			"count" : 48,
+			"height" : 7993.049999999999,
+			"weight" : 3391.87,
+			"avgWeight" : 70.66395833333333,
+			"avgHeight" : 166.521875
+		}
+	},
+	{
+		"_id" : "South Korea",
+		"value" : {
+			"count" : 42,
+			"height" : 7089.91,
+			"weight" : 2914.05,
+			"avgWeight" : 69.38214285714287,
+			"avgHeight" : 168.80738095238095
+		}
+	},
+	{
+		"_id" : "South Sudan",
+		"value" : {
+			"count" : 1,
+			"height" : 157.14,
+			"weight" : 64.1,
+			"avgWeight" : 64.1,
+			"avgHeight" : 157.14
+		}
+	},
+	{
+		"_id" : "Spain",
+		"value" : {
+			"count" : 15,
+			"height" : 2484.52,
+			"weight" : 1063.6100000000001,
+			"avgWeight" : 70.90733333333334,
+			"avgHeight" : 165.63466666666667
+		}
+	},
+	{
+		"_id" : "Sri Lanka",
+		"value" : {
+			"count" : 9,
+			"height" : 1564.48,
+			"weight" : 663.8,
+			"avgWeight" : 73.75555555555555,
+			"avgHeight" : 173.8311111111111
+		}
+	},
+	{
+		"_id" : "Sudan",
+		"value" : {
+			"count" : 8,
+			"height" : 1349.0500000000002,
+			"weight" : 567.0999999999999,
+			"avgWeight" : 70.88749999999999,
+			"avgHeight" : 168.63125000000002
+		}
+	},
+	{
+		"_id" : "Suriname",
+		"value" : {
+			"count" : 1,
+			"height" : 155.18,
+			"weight" : 73.18,
+			"avgWeight" : 73.18,
+			"avgHeight" : 155.18
+		}
+	},
+	{
+		"_id" : "Swaziland",
+		"value" : {
+			"count" : 1,
+			"height" : 167.25,
+			"weight" : 58.47,
+			"avgWeight" : 58.47,
+			"avgHeight" : 167.25
+		}
+	},
+	{
+		"_id" : "Sweden",
+		"value" : {
+			"count" : 264,
+			"height" : 43971.92000000003,
+			"weight" : 18569.740000000013,
+			"avgWeight" : 70.33992424242429,
+			"avgHeight" : 166.56030303030315
+		}
+	},
+	{
+		"_id" : "Switzerland",
+		"value" : {
+			"count" : 4,
+			"height" : 678.63,
+			"weight" : 287.95000000000005,
+			"avgWeight" : 71.98750000000001,
+			"avgHeight" : 169.6575
+		}
+	},
+	{
+		"_id" : "Syria",
+		"value" : {
+			"count" : 38,
+			"height" : 6370.380000000002,
+			"weight" : 2685.86,
+			"avgWeight" : 70.68052631578948,
+			"avgHeight" : 167.64157894736846
+		}
+	},
+	{
+		"_id" : "Taiwan",
+		"value" : {
+			"count" : 5,
+			"height" : 823.75,
+			"weight" : 356.05999999999995,
+			"avgWeight" : 71.21199999999999,
+			"avgHeight" : 164.75
+		}
+	},
+	{
+		"_id" : "Tajikistan",
+		"value" : {
+			"count" : 11,
+			"height" : 1822.58,
+			"weight" : 748.0999999999999,
+			"avgWeight" : 68.0090909090909,
+			"avgHeight" : 165.6890909090909
+		}
+	},
+	{
+		"_id" : "Tanzania",
+		"value" : {
+			"count" : 33,
+			"height" : 5522.69,
+			"weight" : 2352.3300000000004,
+			"avgWeight" : 71.28272727272729,
+			"avgHeight" : 167.35424242424241
+		}
+	},
+	{
+		"_id" : "Thailand",
+		"value" : {
+			"count" : 151,
+			"height" : 24989.499999999975,
+			"weight" : 10476.750000000002,
+			"avgWeight" : 69.38245033112584,
+			"avgHeight" : 165.49337748344354
+		}
+	},
+	{
+		"_id" : "Togo",
+		"value" : {
+			"count" : 5,
+			"height" : 861.48,
+			"weight" : 345.48,
+			"avgWeight" : 69.096,
+			"avgHeight" : 172.296
+		}
+	},
+	{
+		"_id" : "Tonga",
+		"value" : {
+			"count" : 1,
+			"height" : 169.93,
+			"weight" : 68.81,
+			"avgWeight" : 68.81,
+			"avgHeight" : 169.93
+		}
+	},
+	{
+		"_id" : "Trinidad and Tobago",
+		"value" : {
+			"count" : 4,
+			"height" : 645.6300000000001,
+			"weight" : 284.54,
+			"avgWeight" : 71.135,
+			"avgHeight" : 161.40750000000003
+		}
+	},
+	{
+		"_id" : "Tunisia",
+		"value" : {
+			"count" : 31,
+			"height" : 5300.44,
+			"weight" : 2140.53,
+			"avgWeight" : 69.04935483870969,
+			"avgHeight" : 170.98193548387096
+		}
+	},
+	{
+		"_id" : "Turkey",
+		"value" : {
+			"count" : 3,
+			"height" : 512.54,
+			"weight" : 201.37,
+			"avgWeight" : 67.12333333333333,
+			"avgHeight" : 170.84666666666666
+		}
+	},
+	{
+		"_id" : "Turkmenistan",
+		"value" : {
+			"count" : 10,
+			"height" : 1632.99,
+			"weight" : 690.5800000000002,
+			"avgWeight" : 69.05800000000002,
+			"avgHeight" : 163.299
+		}
+	},
+	{
+		"_id" : "Tuvalu",
+		"value" : {
+			"count" : 1,
+			"height" : 172.1,
+			"weight" : 66.95,
+			"avgWeight" : 66.95,
+			"avgHeight" : 172.1
+		}
+	},
+	{
+		"_id" : "Uganda",
+		"value" : {
+			"count" : 22,
+			"height" : 3627.6500000000005,
+			"weight" : 1528.4800000000005,
+			"avgWeight" : 69.47636363636366,
+			"avgHeight" : 164.89318181818183
+		}
+	},
+	{
+		"_id" : "Ukraine",
+		"value" : {
+			"count" : 167,
+			"height" : 27958.809999999998,
+			"weight" : 11611.709999999997,
+			"avgWeight" : 69.5311976047904,
+			"avgHeight" : 167.4180239520958
+		}
+	},
+	{
+		"_id" : "United Arab Emirates",
+		"value" : {
+			"count" : 2,
+			"height" : 319.31,
+			"weight" : 134.06,
+			"avgWeight" : 67.03,
+			"avgHeight" : 159.655
+		}
+	},
+	{
+		"_id" : "United Kingdom",
+		"value" : {
+			"count" : 18,
+			"height" : 3080.3599999999997,
+			"weight" : 1244.6299999999999,
+			"avgWeight" : 69.14611111111111,
+			"avgHeight" : 171.1311111111111
+		}
+	},
+	{
+		"_id" : "United States",
+		"value" : {
+			"count" : 223,
+			"height" : 37010.959999999985,
+			"weight" : 15644.940000000002,
+			"avgWeight" : 70.1566816143498,
+			"avgHeight" : 165.96843049327347
+		}
+	},
+	{
+		"_id" : "Uruguay",
+		"value" : {
+			"count" : 13,
+			"height" : 2193.1299999999997,
+			"weight" : 927.88,
+			"avgWeight" : 71.37538461538462,
+			"avgHeight" : 168.70230769230767
+		}
+	},
+	{
+		"_id" : "Uzbekistan",
+		"value" : {
+			"count" : 24,
+			"height" : 3954.9800000000005,
+			"weight" : 1670.81,
+			"avgWeight" : 69.61708333333333,
+			"avgHeight" : 164.79083333333335
+		}
+	},
+	{
+		"_id" : "Vanuatu",
+		"value" : {
+			"count" : 3,
+			"height" : 506.82,
+			"weight" : 211.48000000000002,
+			"avgWeight" : 70.49333333333334,
+			"avgHeight" : 168.94
+		}
+	},
+	{
+		"_id" : "Venezuela",
+		"value" : {
+			"count" : 39,
+			"height" : 6678.769999999999,
+			"weight" : 2813.340000000001,
+			"avgWeight" : 72.13692307692311,
+			"avgHeight" : 171.2505128205128
+		}
+	},
+	{
+		"_id" : "Vietnam",
+		"value" : {
+			"count" : 85,
+			"height" : 14322.900000000005,
+			"weight" : 5941.05,
+			"avgWeight" : 69.89470588235294,
+			"avgHeight" : 168.504705882353
+		}
+	},
+	{
+		"_id" : "Wallis and Futuna",
+		"value" : {
+			"count" : 2,
+			"height" : 331.92,
+			"weight" : 144.93,
+			"avgWeight" : 72.465,
+			"avgHeight" : 165.96
+		}
+	},
+	{
+		"_id" : "Western Sahara",
+		"value" : {
+			"count" : 1,
+			"height" : 181.83,
+			"weight" : 75.22,
+			"avgWeight" : 75.22,
+			"avgHeight" : 181.83
+		}
+	},
+	{
+		"_id" : "Yemen",
+		"value" : {
+			"count" : 33,
+			"height" : 5473.349999999999,
+			"weight" : 2294.2799999999997,
+			"avgWeight" : 69.52363636363636,
+			"avgHeight" : 165.8590909090909
+		}
+	},
+	{
+		"_id" : "Zambia",
+		"value" : {
+			"count" : 8,
+			"height" : 1325.4099999999999,
+			"weight" : 562.1800000000001,
+			"avgWeight" : 70.27250000000001,
+			"avgHeight" : 165.67624999999998
+		}
+	},
+	{
+		"_id" : "Zimbabwe",
+		"value" : {
+			"count" : 15,
+			"height" : 2426.9200000000005,
+			"weight" : 1049.27,
+			"avgWeight" : 69.95133333333334,
+			"avgHeight" : 161.7946666666667
+		}
+	}
+]
