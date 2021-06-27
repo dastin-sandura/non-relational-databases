@@ -1,0 +1,177 @@
+1. 
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/dastin' --header 'Content-Type: application/json' --data-raw '{"name": "Dastin","surname": "Sandura","age": 18,"country": "Poland"}'
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bingo' --header 'Content-Type: application/json' --data-raw '{"name": "Bingo", "surname": "Gonzales","age": 25,"country": "Mexico"}'
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bango' --header 'Content-Type: application/json' --data-raw '{"name": "Bango","surname": "Morales","age": 3,"country": "Argentina"}'
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bonjo' --header 'Content-Type: application/json' --data-raw '{"name": "Bonjo","surname": "Tamales","age": 13,"country": "Brazil"}'
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bengo' --header 'Content-Type: application/json' --data-raw '{"name": "Bengo","surname": "Escobar","age": 17,"country": "Colombia"}'
+
+1. Response
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:27:24 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:28:41 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:29:05 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:29:21 GMT
+Content-Type: application/json
+Content-Length: 0
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:29:36 GMT
+Content-Type: application/json
+Content-Length: 0
+
+==========================================================================
+
+2.
+curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/dastin'
+
+2. Response
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI83Vv4Awsn9R6BCCUy5bEyeD52uMWXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s10523>; rel="up"
+Last-Modified: Sat, 19 Jun 2021 11:28:41 GMT
+ETag: "1OvN1NOYrazI4MT97w2K0r"
+Date: Sat, 19 Jun 2021 11:35:12 GMT
+Content-Type: application/json
+Content-Length: 54
+
+{name: Dastin,surname: Sandura,age: 18,country: Poland}
+
+===========================================
+3.
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/dastin' --header 'Content-Type: application/json' --data-raw '{"name": "Dastin","surname": "Sandura","age": 15,"country": "Poland", "gender":"M"}'
+
+
+3. Response
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:39:24 GMT
+Content-Type: application/json
+Content-Length: 0
+=====================================
+4.
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bingo' --header 'Content-Type: application/json' --data-raw '{"name": "Bingo","age": 25,"country": "Mexico"}'
+
+
+4. Response
+
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:40:31 GMT
+Content-Type: application/json
+Content-Length: 0
+=============================================
+5.
+curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bango' --header 'Content-Type: application/json' --data-raw '{"name": "Bango","surname": "Morales","age": 3,"country": "Maldives"}'
+
+
+5. Response
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:41:49 GMT
+Content-Type: application/json
+Content-Length: 0
+====================================================================
+6.
+curl -i --request DELETE 'http://localhost:8098/buckets/s10523/keys/bingo'
+
+
+6. Response
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:45:17 GMT
+Content-Type: application/json
+Content-Length: 0
+===================================================
+7.
+curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/bingo'
+
+7. Response
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:46:11 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found
+
+==============================================
+8.
+curl -i --request POST 'http://localhost:8098/buckets/s10523/keys' --header 'Content-Type: application/json' --data-raw '{"isKeyless": true}'
+
+8. Response
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a
+Date: Sat, 19 Jun 2021 11:50:15 GMT
+Content-Type: application/json
+Content-Length: 0
+
+===============================================
+9.
+curl -i --request GET 'http://localhost:8098/buckets/s10523/keys?keys=true'
+curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a'
+
+9. Response
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:57:31 GMT
+Content-Type: application/json
+Content-Length: 146
+
+{"keys":["dastin","bango","bonjo","bengo","De33Ab8cb966f0B504ea19fN74a"]}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI83Vv4Awsn/P8AEUpkzGNlCH/hcIsvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s10523>; rel="up"
+Last-Modified: Sat, 19 Jun 2021 11:50:15 GMT
+ETag: "j9fZ8rj5MubHCtMHlDW0r"
+Date: Sat, 19 Jun 2021 11:58:38 GMT
+Content-Type: application/json
+Content-Length: 146
+
+{isKeyless: true}
+===============================================
+10.
+curl -i --request DELETE 'http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a'
+
+10. Response
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sat, 19 Jun 2021 11:59:40 GMT
+Content-Type: application/json
+Content-Length: 0
