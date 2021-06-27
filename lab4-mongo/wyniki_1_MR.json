@@ -6,15 +6,15 @@ MongoDB server version: 4.4.6
 	{
 		"_id" : "Male",
 		"value" : {
-			"avgWei" : 70.01236667337496,
-			"avgHei" : 166.81620446769992
+			"avgWeight" : 70.01236667337496,
+			"avgHeight" : 166.81620446769992
 		}
 	},
 	{
 		"_id" : "Female",
 		"value" : {
-			"avgWei" : 70.11482465031429,
-			"avgHei" : 166.85113723900244
+			"avgWeight" : 70.11482465031429,
+			"avgHeight" : 166.85113723900244
 		}
 	}
 ]
