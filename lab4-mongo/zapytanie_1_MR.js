@@ -1,12 +1,12 @@
 // use('nbd')
 var mapFunction = function(){
-  emit(this.nationality, {
+  emit(this.sex, {
       count : 0,
       height: Number(this.height),
       weight: Number(this.weight)
     })
 };
-var reduceFunction = function(nationality, heightAndWeightObjects){
+var reduceFunction = function(sex, heightAndWeightObjects){
     var result = {count:0,height:0,weight:0}
     heightAndWeightObjects.forEach(e => {
       result.count++;
@@ -15,10 +15,10 @@ var reduceFunction = function(nationality, heightAndWeightObjects){
     });
   return result;
 };
-var finalizeFunction = function(nationality, reducedValues) {
-    reducedValues.avgWeight = reducedValues.weight/reducedValues.count;
-    reducedValues.avgHeight = reducedValues.height/reducedValues.count;
-    return reducedValues;
+var finalizeFunction = function(sex, reducedValues) {
+    var res = { avgWeight : reducedValues.weight/reducedValues.count,
+    avgHeight : reducedValues.height/reducedValues.count}
+    return res;
 }
 db.people.mapReduce(
   mapFunction,
