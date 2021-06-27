@@ -3,20 +3,10 @@ var mapFunction = function(){
     this.credit.forEach(e => {
         emit(e.currency,Number(e.balance));
     });
-//   emit(this.nationality, {
-    //   count : 0,
-    //   height: Number(this.height),
-    //   weight: Number(this.weight)
-    // })
 };
 var reduceFunction = function(currency, balances){
   return Array.sum(balances);
 };
-var finalizeFunction = function(nationality, reducedValues) {
-    reducedValues.avgWeight = reducedValues.weight/reducedValues.count;
-    reducedValues.avgHeight = reducedValues.height/reducedValues.count;
-    return reducedValues;
-}
 db.people.mapReduce(
   mapFunction,
   reduceFunction,
