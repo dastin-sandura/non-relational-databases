@@ -1,9 +1,9 @@
 1. 
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/dastin' --header 'Content-Type: application/json' --data-raw '{"name": "Dastin","surname": "Sandura","age": 18,"country": "Poland"}'
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bingo' --header 'Content-Type: application/json' --data-raw '{"name": "Bingo", "surname": "Gonzales","age": 25,"country": "Mexico"}'
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bango' --header 'Content-Type: application/json' --data-raw '{"name": "Bango","surname": "Morales","age": 3,"country": "Argentina"}'
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bonjo' --header 'Content-Type: application/json' --data-raw '{"name": "Bonjo","surname": "Tamales","age": 13,"country": "Brazil"}'
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bengo' --header 'Content-Type: application/json' --data-raw '{"name": "Bengo","surname": "Escobar","age": 17,"country": "Colombia"}'
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/dastin" --header "Content-Type: application/json" --data-raw "{'name': 'Dastin','surname': 'Sandura','age': 18,'country': 'Poland'}"
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bingo" --header "Content-Type: application/json" --data-raw "{'name': 'Bingo', 'surname': 'Gonzales','age': 25,'country': 'Mexico'}"
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bango" --header "Content-Type: application/json" --data-raw "{'name': 'Bango','surname': 'Morales','age': 3,'country': 'Argentina'}"
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bonjo" --header "Content-Type: application/json" --data-raw "{'name': 'Bonjo','surname': 'Tamales','age': 13,'country': 'Brazil'}"
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bengo" --header "Content-Type: application/json" --data-raw "{'name': 'Bengo','surname': 'Escobar','age': 17,'country': 'Colombia'}"
 
 1. Response
 
@@ -45,7 +45,7 @@ Content-Length: 0
 ==========================================================================
 
 2.
-curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/dastin'
+curl -i --request GET "http://localhost:8098/buckets/s10523/keys/dastin"
 
 2. Response
 
@@ -64,7 +64,7 @@ Content-Length: 54
 
 ===========================================
 3.
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/dastin' --header 'Content-Type: application/json' --data-raw '{"name": "Dastin","surname": "Sandura","age": 15,"country": "Poland", "gender":"M"}'
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/dastin" --header "Content-Type: application/json" --data-raw "{'name': 'Dastin','surname': 'Sandura','age': 15,'country': 'Poland', 'gender':'M'}"
 
 
 3. Response
@@ -76,7 +76,7 @@ Content-Type: application/json
 Content-Length: 0
 =====================================
 4.
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bingo' --header 'Content-Type: application/json' --data-raw '{"name": "Bingo","age": 25,"country": "Mexico"}'
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bingo" --header "Content-Type: application/json" --data-raw "{'name': 'Bingo','age': 25,'country': 'Mexico'}"
 
 
 4. Response
@@ -89,7 +89,7 @@ Content-Type: application/json
 Content-Length: 0
 =============================================
 5.
-curl -i --request PUT 'http://localhost:8098/buckets/s10523/keys/bango' --header 'Content-Type: application/json' --data-raw '{"name": "Bango","surname": "Morales","age": 3,"country": "Maldives"}'
+curl -i --request PUT "http://localhost:8098/buckets/s10523/keys/bango" --header "Content-Type: application/json" --data-raw "{'name': 'Bango','surname': 'Morales",'age': 3,'country': 'Maldives'}"
 
 
 5. Response
@@ -101,7 +101,7 @@ Content-Type: application/json
 Content-Length: 0
 ====================================================================
 6.
-curl -i --request DELETE 'http://localhost:8098/buckets/s10523/keys/bingo'
+curl -i --request DELETE "http://localhost:8098/buckets/s10523/keys/bingo"
 
 
 6. Response
@@ -113,7 +113,7 @@ Content-Type: application/json
 Content-Length: 0
 ===================================================
 7.
-curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/bingo'
+curl -i --request GET "http://localhost:8098/buckets/s10523/keys/bingo"
 
 7. Response
 HTTP/1.1 404 Object Not Found
@@ -126,7 +126,7 @@ not found
 
 ==============================================
 8.
-curl -i --request POST 'http://localhost:8098/buckets/s10523/keys' --header 'Content-Type: application/json' --data-raw '{"isKeyless": true}'
+curl -i --request POST "http://localhost:8098/buckets/s10523/keys" --header "Content-Type: application/json" --data-raw "{'isKeyless': true}"
 
 8. Response
 HTTP/1.1 201 Created
@@ -139,8 +139,8 @@ Content-Length: 0
 
 ===============================================
 9.
-curl -i --request GET 'http://localhost:8098/buckets/s10523/keys?keys=true'
-curl -i --request GET 'http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a'
+curl -i --request GET "http://localhost:8098/buckets/s10523/keys?keys=true"
+curl -i --request GET "http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a"
 
 9. Response
 HTTP/1.1 200 OK
@@ -150,7 +150,7 @@ Date: Sat, 19 Jun 2021 11:57:31 GMT
 Content-Type: application/json
 Content-Length: 146
 
-{"keys":["dastin","bango","bonjo","bengo","De33Ab8cb966f0B504ea19fN74a"]}
+{"keys":["dastin","Bango","bonjo","bengo","De33Ab8cb966f0B504ea19fN74a"]}
 
 HTTP/1.1 200 OK
 X-Riak-Vclock: a85hYGBgzGDKBVI83Vv4Awsn/P8AEUpkzGNlCH/hcIsvCwA=
@@ -166,7 +166,7 @@ Content-Length: 146
 {isKeyless: true}
 ===============================================
 10.
-curl -i --request DELETE 'http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a'
+curl -i --request DELETE "http://localhost:8098/buckets/s10523/keys/De33Ab8cb966f0B504ea19fN74a"
 
 10. Response
 HTTP/1.1 204 No Content
