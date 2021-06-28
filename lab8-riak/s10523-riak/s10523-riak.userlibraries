@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="Maven: com.basho.riak:riak-client:2.1.1">
+    <archive path="C:/Users/dnsr/.m2/repository/com/basho/riak/riak-client/2.1.1/riak-client-2.1.1.jar" />
+  </library>
+  <library name="Maven: org.erlang.otp:jinterface:1.6.1">
+    <archive path="C:/Users/dnsr/.m2/repository/org/erlang/otp/jinterface/1.6.1/jinterface-1.6.1.jar" />
+  </library>
+  <library name="Maven: org.slf4j:slf4j-api:1.7.21">
+    <archive path="C:/Users/dnsr/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.0">
+    <archive path="C:/Users/dnsr/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.0/jackson-databind-2.8.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0">
+    <archive path="C:/Users/dnsr/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.0">
+    <archive path="C:/Users/dnsr/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.0/jackson-core-2.8.0.jar" />
+  </library>
+  <library name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.8.0">
+    <archive path="C:/Users/dnsr/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.8.0/jackson-datatype-joda-2.8.0.jar" />
+  </library>
+  <library name="Maven: joda-time:joda-time:2.7">
+    <archive path="C:/Users/dnsr/.m2/repository/joda-time/joda-time/2.7/joda-time-2.7.jar" />
+  </library>
+  <library name="Maven: io.netty:netty-all:4.1.5.Final">
+    <archive path="C:/Users/dnsr/.m2/repository/io/netty/netty-all/4.1.5.Final/netty-all-4.1.5.Final.jar" />
+  </library>
+  <library name="com.ibm.mq.allclient-9.1.4.0">
+    <archive path="C:/Users/dnsr/com.ibm.mq.allclient-9.1.4.0.jar" />
+  </library>
+  <library name="javax.jms-api-2.0.1">
+    <archive path="C:/Users/dnsr/javax.jms-api-2.0.1.jar" />
+  </library>
+  <library name="runtimes">
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/sibc.nls.zip" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/ejb3exceptions.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.orb_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.messagingClient.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.xml.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.admin.client_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.portable_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.jaxrs.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.jaxws.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.jpa.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.sib.client.thin.jms_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.webservices.thinclient_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.embeddableContainer_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.sib.client_ExpeditorDRE_8.5.0.jar" />
+    <archive path="C:/Program Files (x86)/IBM/WebSphere/AppServer/runtimes/com.ibm.ws.ejb.embeddableContainer_nls_8.5.0.jar" />
+  </library>
+</eclipse-userlibraries>
+
