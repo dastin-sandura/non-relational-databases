@@ -1,0 +1,7 @@
+﻿PriceSUM,path
+356.25,"[{""name"":TUS},{""flightID"":987,""class"":economy,""ticketID"":988,""airlineName"":20304},{""name"":LAX}]"
+356.25,"[{""name"":TUS},{""flightID"":991,""class"":economy,""ticketID"":992,""airlineName"":20304},{""name"":LAX}]"
+475,"[{""name"":TUS},{""flightID"":991,""class"":business,""ticketID"":993,""airlineName"":20304},{""name"":LAX}]"
+475,"[{""name"":TUS},{""flightID"":987,""class"":business,""ticketID"":989,""airlineName"":20304},{""name"":LAX}]"
+570.0,"[{""name"":TUS},{""flightID"":991,""class"":firstClass,""ticketID"":994,""airlineName"":20304},{""name"":LAX}]"
+570.0,"[{""name"":TUS},{""flightID"":987,""class"":firstClass,""ticketID"":990,""airlineName"":20304},{""name"":LAX}]"

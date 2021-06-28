@@ -1,0 +1,118 @@
+﻿[
+  {
+    "PriceSUM": 475,
+    "path": {
+"start": {
+"identity": 42,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "TUS"
+        }
+      },
+"end": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1637,
+"start": 42,
+"end": 5,
+"type": "FLY_HIGH_TICKET",
+"properties": {
+"flightID": 991,
+"class": "business",
+"ticketID": 993,
+"airlineName": "20304"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  },
+  {
+    "PriceSUM": 475,
+    "path": {
+"start": {
+"identity": 42,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "TUS"
+        }
+      },
+"end": {
+"identity": 5,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "LAX"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 42,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "TUS"
+            }
+          },
+          "relationship": {
+"identity": 1632,
+"start": 42,
+"end": 5,
+"type": "FLY_HIGH_TICKET",
+"properties": {
+"flightID": 987,
+"class": "business",
+"ticketID": 989,
+"airlineName": "20304"
+            }
+          },
+          "end": {
+"identity": 5,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "LAX"
+            }
+          }
+        }
+      ],
+"length": 1.0
+    }
+  }
+]

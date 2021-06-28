@@ -1,0 +1,125 @@
+﻿[
+  {
+    "nodes(shortPathWinter)": [
+      {
+        "identity": 256,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Darjeeling"
+        }
+      },
+      {
+        "identity": 255,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Rimbik"
+        }
+      },
+      {
+        "identity": 257,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+"name": "BhikeBhanja"
+        }
+      },
+      {
+        "identity": 258,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      }
+    ]
+  },
+  {
+    "nodes(shortPathWinter)": [
+      {
+        "identity": 256,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Darjeeling"
+        }
+      },
+      {
+        "identity": 255,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Rimbik"
+        }
+      },
+      {
+        "identity": 257,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+"name": "BhikeBhanja"
+        }
+      },
+      {
+        "identity": 258,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      }
+    ]
+  },
+  {
+    "nodes(shortPathWinter)": [
+      {
+        "identity": 256,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Darjeeling"
+        }
+      },
+      {
+        "identity": 255,
+        "labels": [
+          "town"
+        ],
+        "properties": {
+"name": "Rimbik"
+        }
+      },
+      {
+        "identity": 257,
+        "labels": [
+          "village"
+        ],
+        "properties": {
+"name": "BhikeBhanja"
+        }
+      },
+      {
+        "identity": 258,
+        "labels": [
+          "peak"
+        ],
+        "properties": {
+"name": "Sandakphu",
+"altitude": "12400 ft"
+        }
+      }
+    ]
+  }
+]
